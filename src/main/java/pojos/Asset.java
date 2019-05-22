@@ -3,12 +3,12 @@ package pojos;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Qute {
+public class Asset {
 
     private String sector;
     private Float latestPrice;
 
-    public Qute() {
+    public Asset() {
     }
 
     public String getSector() {
